@@ -1,7 +1,7 @@
 {
   "flowers" : [
     {
-      "uid": "1685",
+      "uid": "3685",
       "category": "packaging",
       "title": "Упаковка (Нейминг+упаковка)",
       "image": "https://ekaterinburg.rus-buket.ru/files/icons/icon-1685.png",
@@ -12,7 +12,7 @@
     },
     
     {
-      "uid": "1568",
+      "uid": "3568",
       "category": "ads",
       "title": "Рекламный пост - Gif",
       "image": "https://ekaterinburg.rus-buket.ru/files/icons/icon-1568.png",
@@ -20,7 +20,7 @@
       "link": "https://ekaterinburg.rus-buket.ru/podarki/1568/chainaya-korzina"
     },
     {
-      "uid": "1605",
+      "uid": "3605",
       "category": "bots",
       "title": "Бот",
       "image": "https://ekaterinburg.rus-buket.ru/files/icons/icon-1605.png",
@@ -28,7 +28,7 @@
       "link": "https://ekaterinburg.rus-buket.ru/podarki/1605/ferrero-300g"
     },
     {
-      "uid": "1309",
+      "uid": "3309",
       "category": "ads",
       "title": "Монетизация",
       "image": "https://ekaterinburg.rus-buket.ru/files/icons/icon-1309.png",
