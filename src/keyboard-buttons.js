@@ -3,7 +3,7 @@ module.exports = {
     bouqets: '🔥 Продвижение',
     packaging: '🦁 Упаковка',
     bro: 'Отправить другу 👍🏻',
-    bots: '💥 Контент',
+    bots: '🤖 Боты',
     cart: '🤝 Заказы',
     money: '😍💸 Монетизация'
   },
