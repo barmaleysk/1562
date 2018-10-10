@@ -96,10 +96,10 @@ bot.onText(/^\/[a-zA-Z]+$/, msg => {
       break
     case '/contacts':
       return bot.sendMessage(id, helper.contacts)
-	       case '/bro':
-      return bot.sendMessage(id, helper.bro)
-         case '/bogdan':
-      return bot.sendMessage(id, helper.bogdan)
+	       case '/money':
+      return bot.sendMessage(id, helper.money)
+         case '/expert':
+      return bot.sendMessage(id, helper.expert)
     case '/ads':
       MainController.sendCallback(msg, 'ads')
       break
@@ -152,6 +152,9 @@ bot.on('message', msg => {
         break
 		      case kb.home.bro:
         return bot.sendMessage(id, helper.bro)
+        break
+		    case kb.home.money:
+        return bot.sendMessage(id, helper.money)
         break
     }
   }).catch(err => console.log(err))
