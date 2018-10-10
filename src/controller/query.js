@@ -59,12 +59,12 @@ module.exports = {
               let inlineKeyboard = []
               if (page > 1 && page !== pageTotal) {
                 inlineKeyboard = [
-                  [{text: '️️⬅️  Предыдущая', callback_data: `less ${query}`}],
-                  [{text: 'Следующая ➡', callback_data: `more ${query}`}]
+                  [{text: '️️⬅️  Предыдущая', callback_data: `less ${query}`}]
+        
                 ]
               } else if (page === 1) {
                 inlineKeyboard = [
-                  [{text: 'Следующая ➡️️', callback_data: `more ${query}`}]
+                  
                 ]
               } else if (page === pageTotal) {
                 inlineKeyboard = [
@@ -183,11 +183,11 @@ module.exports = {
         if (page > 1 && page !== pageTotal) {
           inlineKeyboard = [
             [{text: '️️⬅️ Предыдущая', callback_data: `lessPrice ${cb_data}`}],
-            [{text: 'Следующая ➡', callback_data: `morePrice ${cb_data}`}]
+   
           ]
         } else if (page === 1) {
           inlineKeyboard = [
-            [{text: 'Следующая ➡️️', callback_data: `morePrice ${cb_data}`}]
+          
           ]
         } else if (page === pageTotal) {
           inlineKeyboard = [
@@ -284,11 +284,11 @@ module.exports = {
         if (page > 1 && page !== pageTotal) {
           inlineKeyboard = [
             [{text: '️️⬅️ Предыдущая', callback_data: `lessReason ${cb_data}`}],
-            [{text: 'Следующая ➡', callback_data: `moreReason ${cb_data}`}]
+        
           ]
         } else if (page === 1) {
           inlineKeyboard = [
-            [{text: 'Следующая ➡️️', callback_data: `moreReason ${cb_data}`}]
+    
           ]
         } else if (page === pageTotal) {
           inlineKeyboard = [
