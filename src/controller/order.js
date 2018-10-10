@@ -38,14 +38,14 @@ module.exports = {
             bot.removeReplyListener(replyId)
 
             // Second question
-            bot.sendMessage(id, `Какой Вы хотите получить результат?`, replyMarkup)
+            bot.sendMessage(id, `Желаемый результат?`, replyMarkup)
               .then(msg => {
                 const replyId = bot.onReplyToMessage(id, msg.message_id, msg => {
                   user.set('address', msg.text).save()
                   bot.removeReplyListener(replyId)
 
                   // Third question
-                  bot.sendMessage(id, `Примерный бюджет, доп поле.`, replyMarkup)
+                  bot.sendMessage(id, `Сроки`, replyMarkup)
                     .then(msg => {
                       const replyId = bot.onReplyToMessage(id, msg.message_id, msg => {
                         user.set('phone', msg.text).save()
