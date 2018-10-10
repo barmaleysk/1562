@@ -3,7 +3,7 @@ const kb = require ('./keyboard-buttons')
 module.exports = {
   home: [
     [kb.home.packaging],
-    [kb.home.bots, kb.home.bouqets],
+    [kb.home.packaging, kb.home.bots],
     [kb.home.cart],
 	   [kb.home.money],
 	  [kb.home.bro]
