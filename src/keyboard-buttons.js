@@ -1,10 +1,11 @@
 module.exports = {
   home: {
-    bouqets: '🔥 Реклама',
-    packaging: '☄️ Упаковка',
+    bouqets: '🔥 Продвижение',
+    packaging: '🦁 Упаковка',
     bro: 'Отправить другу 👍🏻',
     bots: '💥 Контент',
-    cart: '🤝 Заказы'
+    cart: '🤝 Заказы',
+    money: '😍💸 Монетизация'
   },
   cart: {
     clear: '🗑️ Очистить корзину',
